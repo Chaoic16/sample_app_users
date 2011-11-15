@@ -39,3 +39,6 @@ Pages (controller)/home (method)
 
 ----------------------------------------------
 
+rspec is outside rails stack
+
+In order to get pages, must explicity render_views
