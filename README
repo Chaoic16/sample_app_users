@@ -1,3 +1,41 @@
 This is another sample_app project and workspace in preparation for class on 11/15/11. 
 
 It uses partials to improve  readability.
+
+----------------------------------------------
+
+Note:
+
+Static
+
+Controller A
+	eachmethod xxx
+		-> page
+		
+View
+	A/
+		xxx.html erb
+		
+Routes
+
+----------------------------------------------
+
+erb = embedded ruby
+
+----------------------------------------------
+
+rails generate controller
+
+----------------------------------------------
+
+											|-->
+											|
+Requires -> (router) -> (controller) -> View (render) <------|
+							|		 -> Application.html.erb |
+							|
+							|---------> home method = pages (controller) 
+
+Pages (controller)/home (method)
+
+----------------------------------------------
+
